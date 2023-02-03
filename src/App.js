@@ -1,21 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import './veysel.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <veysel>
+          <div
+          className='tekne'>
+            <p>Tekne</p>
+          </div>
+          <div 
+          className='sap'>
+            <p>Sap</p>
+            <div className='ust'>
+            </div>
+            <div className='orta'>
+            </div>
+            <div className='alt'>
+            </div>
+           
+            </div>
+        </veysel>
+        
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+           
         >
-          Learn React
+          Learn Play Saz
         </a>
       </header>
     </div>

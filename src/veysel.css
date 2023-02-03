@@ -1,0 +1,45 @@
+veysel {
+  width: 80%;
+}
+
+
+.tekne {
+  width: 44%;
+  height: 200px;
+  float: left;
+  background-color: antiquewhite;
+}
+.sap {
+  width: 56%;
+  height: 124px;
+  float: right;
+  background-color: yellow;
+  display: revert;
+  top: 30px;
+  padding-top: 1px;
+  position: relative;
+  margin-top: 10px;
+}
+.sap .ust
+{
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color: red;
+  margin-top:2px;
+}
+.sap .alt
+{
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color: green;
+margin-top: 2px;
+}
+.sap .orta
+{
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color: blue;
+}
